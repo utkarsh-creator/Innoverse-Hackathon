@@ -262,9 +262,12 @@ ol li {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
-
+.hello{
+  margin-left: 30vh;
+}
 .about-content ul li {
   font-size: 18px;
+  
 }
 .about-text p {
   font-size: 20px;
