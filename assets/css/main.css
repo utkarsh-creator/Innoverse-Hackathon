@@ -1205,7 +1205,7 @@ h1 {
 }
 
 .counter-section .counter .counterUp {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -1214,7 +1214,7 @@ h1 {
 /* Sponsors Area */
 #sponsors {
   /* background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center; */
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   background-attachment: scroll;
   background-size: auto auto;
   background-size: cover;
@@ -1224,11 +1224,11 @@ h1 {
 }
 
 #sponsors .section-title-header .section-title {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #sponsors .section-title-header p {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #sponsors .sponsors-logo a img {
@@ -1334,8 +1334,10 @@ h1 {
 }
 
 .schedule .show .card-body {
-  background: #f3f4f3;
+  background-color:#e2e8ed;
 }
+
+
 
 .schedule .card .schedule-slot-time {
   background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
@@ -2261,6 +2263,15 @@ footer {
 
 .footer-logo {
   margin-bottom: 50px;
+  
+}
+
+.ieee{
+  padding-right: 3vh;
+}
+
+.bkt{
+  padding-right: 2vh;
 }
 
 /* ==========================================================================
@@ -2708,7 +2719,7 @@ section#count {
 #sponsor-heading {
   font-size: 40px;
   margin-bottom: 50px;
-  color: #000 !important;
+  color: rgb(255, 255, 255) !important;
 }
 /* Dark Theme */
 section#about {
@@ -2822,4 +2833,84 @@ li.stylish-list {
 }
 .prize-desc {
   display: none;
+}
+
+#sessions{
+  margin-top: 40px;
+}
+.speak-1{
+  margin-left: 200px;
+}
+.introg1{
+  margin-top: 40px;
+}
+.speakersLl {
+  display: flex;
+}
+.speak-1,.introg1 {
+  flex: 0;
+  padding: 30px;
+}
+.nameSpeaker1{
+  color: white;
+  margin-left: 60px;
+}
+.desc1{
+  margin-top: 20px;
+  width: 500px;
+  margin-left: 56px;
+  word-spacing:2px;
+}
+#speaker-morning{
+  position: relative;
+  border-radius: 4px;
+  z-index: 2;
+-webkit-transition: all 300ms ease-in-out;
+-moz-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+  box-shadow: 0 2px 24px #5e5e62;
+  width: 300px;
+}
+
+.item-text{
+  border:none;
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .speak-1{
+    margin-left: 5px;
+  }
+  .nameSpeaker1{
+    margin-left: 10px;
+  }
+  .desc1{
+    margin-left: 0px;
+    box-sizing: border-box;
+    width: 300px;
+  }
+}
+.web2track{
+  font-size: x-large;
+  font-weight:900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.web2trackk{
+  font-size: x-large;
+  font-weight:900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  
+}
+.crm{
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-body{
+  color: #ddd;
 }
