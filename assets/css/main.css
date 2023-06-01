@@ -2530,6 +2530,7 @@ img#nav-logo {
 
 #hero-area .contents {
   padding: 160px 20px 180px;
+  margin-top: 40vh;
 }
 
 #hero-area .contents .icon {
@@ -2652,7 +2653,15 @@ div#clock {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
   }
+  .afterrr::before{
+    content: Innoverse 2023;
+  }
+
+.sponsors-logo{
+  /* margin-left: -10vh; */
+}
   #hero-register {
   }
   #hero-image {
@@ -2661,6 +2670,19 @@ div#clock {
   #hero-area .contents .banner-btn {
     margin-top: 0px;
   }
+
+  .speak-1{
+    text-align: center;
+    
+  }
+  .imge{
+    align-items: center
+    ;
+  }
+
+  
+  
+
 }
 @media (max-width: 768px) {
   #count .count-wrapper {
@@ -2913,4 +2935,10 @@ transition: all 300ms ease-in-out;
 
 .card-body{
   color: #ddd;
+}
+
+.inno{
+  margin-top: 20vh;
+  text-align: center;
+  margin-bottom: -30vh;
 }
