@@ -231,3 +231,17 @@
     font-size: 13px;
   }
 }
+
+@media (max-width:600px){
+  .sponsor-logo{
+    /* width:none */
+    min-width:-webkit-fill-available;
+
+  }
+}
+@media (min-width:600px) {
+  .sponsor-logo{
+    width:50vh;
+    
+  }
+}
