@@ -2679,11 +2679,22 @@ div#clock {
     align-items: center
     ;
   }
-
-  
-  
-
+  #hero-area .contents {
+    padding: 160px 20px 180px;
+    margin-top: 40vh;
+  }
+  .hero-area-bg {
+    /* background: url(../img/hero-area.jpg) no-repeat; */
+    background: url(../img/background/bgop.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 210vh;
+    width: max-content;
+  }
 }
+  
+
+
 @media (max-width: 768px) {
   #count .count-wrapper {
     margin-top: 100px;
