@@ -2630,11 +2630,10 @@ div#clock {
 }
 @media (max-width: 720px) {
   .hero-area-bg {
-    /* background: url(../img/hero-area.jpg) no-repeat; */
-    background: url(../img/background/onlybg.png) no-repeat !important;
-    background-size: cover !important;
-    background-position: center;
-    height: 100vh;
+    background: url(../img/background/bgop.png) no-repeat !important;
+    background-size: contain !important;
+    background-position: inherit;
+    height: auto;
   }
 
   #hero-register {
@@ -2645,25 +2644,24 @@ div#clock {
   #hero-area .contents .banner-btn {
     margin-top: 0px;
   }
+  #hero-area .contents {
+    padding: 160px 20px 180px;
+    margin-top: 20vh;
+  }
 }
 @media (max-width: 445px) {
   .hero-area-bg {
-    /* background: url(../img/hero-area.jpg) no-repeat; */
-    background: url(../img/background/onlybg.png) no-repeat !important;
-    background-size: cover;
+    background: url(../img/background/bgop.png) no-repeat !important;
+    background-size: contain !important;
     background-position: center;
     height: 100vh;
-    
   }
-  .afterrr::before{
-    content: Innoverse 2023;
-  }
+
 
 .sponsors-logo{
   /* margin-left: -10vh; */
 }
-  #hero-register {
-  }
+
   #hero-image {
     display: block;
   }
@@ -2681,16 +2679,9 @@ div#clock {
   }
   #hero-area .contents {
     padding: 160px 20px 180px;
-    margin-top: 40vh;
+    margin-top: 30vh;
   }
-  .hero-area-bg {
-    /* background: url(../img/hero-area.jpg) no-repeat; */
-    background: url(../img/background/bgop.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 210vh;
-    width: max-content;
-  }
+
 }
   
 
