@@ -2922,7 +2922,9 @@ transition: all 300ms ease-in-out;
     width: 300px;
   }
   .speaker{
-    margin: auto;
+    
+    margin-left: auto;
+    align-items: center;
   }
 }
 .web2track{
